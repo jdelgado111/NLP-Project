@@ -7,11 +7,6 @@ import "./styles/footer.scss";
 import "./styles/form.scss";
 import "./styles/header.scss";
 
-//console.log(checkUrl);
-
-//alert("I EXIST");
-//console.log("CHANGE!!");
-
 export {
  checkUrl,
  handleSubmit
