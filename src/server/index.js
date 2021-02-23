@@ -1,9 +1,6 @@
 const dotenv = require("dotenv");
 dotenv.config();
 
-//var path = require("path");
-//const mockAPIResponse = require('./mockAPI.js')
-
 const fetch = require("node-fetch");
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -38,18 +35,6 @@ app.post("/getSentiment", async (req, res) => {
         console.log("error", error);
     }
 });
-
-/*
-app.get('/', function (req, res) {
-    res.sendFile(path.resolve('src/client/views/index.html'))
-});
-*/
-
-/*
-app.get('/test', function (req, res) {
-    res.send(mockAPIResponse)
-})
-*/
 
 // designates what port the app will listen to for incoming requests
 app.listen(8080, function () {
