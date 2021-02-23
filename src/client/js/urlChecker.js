@@ -14,20 +14,6 @@ function checkUrl(formText) {
 
     //returns true if url is valid/has a valid protocol
     return url.protocol === "http:" || url.protocol === "https:";
-
-    /*
-    let names = [
-        "Picard",
-        "Janeway",
-        "Kirk",
-        "Archer",
-        "Georgiou"
-    ]
-
-    if(names.includes(inputText)) {
-        alert("Welcome, Captain!")
-    }
-    */
 }
 
 export { checkUrl }
