@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: #61ccd4;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+#btn {
+    background-color: #d5e7cb;
+}
