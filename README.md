@@ -31,12 +31,10 @@ followed by
 ```
 npm start
 ```
-then use your browser to navigate to localhost:8080 to view the page.
+then use your browser to navigate to localhost:8080 to view the page. Once the webpage has loaded, the form will accept any URL with an http or https protocol.  Enter an URL and press the submit button to view the analysis of the text.
 
 
-This project includes unit testing with the Jest framework. To run the tests, type
+This project also includes unit testing using Jest framework. To run the tests, type
 ```
 npm run test
 ```
-
-Once the webpage has loaded, the form will accept any URL with an http or https protocol.  Enter an URL and press the submit button to view the analysis of the text.
