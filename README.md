@@ -1,7 +1,7 @@
 # NLP-Project
 
 ## Description
-A simple webpage that uses the MeaningCloud API to analyze the text in a webpage provided by the user. This project was 
+A simple webpage that uses the MeaningCloud API to analyze the text in a webpage provided by the user.
 
 ## Requirements
 This project runs on a local server and requires Node to run. If you don't have Node already installed on your machine, you can download it [**here**](https://nodejs.org/en/download/).
